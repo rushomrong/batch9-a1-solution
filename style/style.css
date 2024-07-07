@@ -347,7 +347,7 @@ body {
     height: 200px;
     background-color: #FF0000;
     position: absolute;
-    top: 80%;
+    top: 70%;
     border-radius: 16px;
     display: flex;
     justify-content: space-between;
@@ -357,4 +357,12 @@ body {
     width: 1320px;
     height: 577px;
     display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.image-section .right-image {
+    width: 305px;
+    height: 305px;
+    margin: 0 auto;
 }
