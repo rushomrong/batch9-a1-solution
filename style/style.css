@@ -106,8 +106,52 @@ body {
     background-position: center;
     border-radius: 16px;
     display: flex;
-    flex-direction: column;
     margin: 0 auto;
     background-blend-mode: overlay;
     background-size: cover;
+    padding: 126px 145px 158px 145px;
+    justify-content: space-between;
+}
+
+.leftside-content  {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftside-content .midnight-title {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+
+}
+
+.leftside-content .midnight-desc {
+    color: #FFFFFFCC;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.leftside-content .midnight-btn {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.midnight-btn {
+    color: #fff;
+    margin-top: 48px;
+}
+
+
+.image-right {
+    width: 350px;
+    margin-bottom: 68px;
 }
