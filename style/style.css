@@ -216,6 +216,7 @@ body {
     height: 463px;
     display: flex;
     margin: 0 auto;
+    margin-bottom: 120px;
 }
 
 .coming-soon-container .best-offer {
@@ -299,18 +300,14 @@ body {
 .holiday-sale-container {
     max-width: 1320px;
     height: 985px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 0 auto;
-
+    position: relative;
 }
 
 .holiday-sale-container .holiday-title {
     width: 1068px;
     height: 260px;
-    display: flex;
-    flex-direction: column;
+    margin: 0 auto;
 }
 
 .holiday-title .pre-title {
@@ -343,4 +340,21 @@ body {
     line-height: 32px;
     color: #07021199;
     text-align: center;
+}
+
+.solid-color {
+    width: 1320px;
+    height: 200px;
+    background-color: #FF0000;
+    position: absolute;
+    top: 80%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-section {
+    width: 1320px;
+    height: 577px;
+    display: flex;
 }
