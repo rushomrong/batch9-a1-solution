@@ -209,3 +209,25 @@ body {
     cursor: pointer;
     
 }
+
+/* coming soon css */
+.coming-soon-container {
+    width: 1320px;
+    height: 463px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.coming-soon-container .best-offer {
+   width: 393px;
+   display: flex;
+   flex-direction: column;
+}
+
+.center-image {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 400px;
+    height: 395px;
+    border: 15px solid rgb(255, 0, 0);
+}
