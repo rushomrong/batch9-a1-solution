@@ -222,15 +222,75 @@ body {
    width: 393px;
    display: flex;
    flex-direction: column;
+   justify-content: center;
+   margin-right: 70px;
+}
+
+.best-offer .title {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    color: #FF0000;
+}
+
+.best-offer .coming {
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    color: #070211;
+    margin-top: 16px;
+}
+
+.best-offer .offer-desc {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #07021199;
+    margin-top: 22px;
 }
 
 .center-image {
     box-sizing: border-box;
     border-radius: 50%;
-    width: 450px;
+    width: 490px;
     height: 430px;
     border: 15px solid rgb(255, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.img-right {
+    width: 394px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 122px;
+}
+
+.img-right img{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 46px;
+}
+
+.img-right .title {
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #FF0000;
+}
+
+.img-right .img-desc {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #07021199;
 }
