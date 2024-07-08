@@ -1,575 +1,576 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
 
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Merriweather, sans-serif;
+  font-family: Merriweather, sans-serif;
 }
 
 /* banner section start header */
 .banner-container {
-    max-width: 1320px;
-    height: 600px;
-    background-image: url("../assets/images/Banner-Image.png");
-    background-color: rgb(0,0,0,0.5);
-    background-blend-mode: overlay;
-    margin: 0 auto; /*to align the image center*/
-    margin-top: 50px;
-    border-radius: 16px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  max-width: 1320px;
+  height: 600px;
+  background-image: url("../assets/images/Banner-Image.png");
+  background-color: rgb(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  margin: 0 auto; /*to align the image center*/
+  margin-top: 50px;
+  border-radius: 16px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .banner-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
 }
 
-.banner-content p{
-    color: #fff;
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 40px;
-    margin-bottom: 16px;
-    
+.banner-content p {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 40px;
+  margin-bottom: 16px;
 }
 
 .banner-content h1 {
-    color: #fff;
-    font-size: 52px;
-    font-weight: 700;
-    text-align: center;
+  color: #fff;
+  font-size: 52px;
+  font-weight: 700;
+  text-align: center;
 }
 
 /* 60% off section style */
 .percentage-container {
-    display: flex;
-    width: 803px;
-    height: 806px;
-    margin: 0 auto;
-    margin-top: 120px;
-    margin-bottom: 120px;
+  display: flex;
+  width: 803px;
+  height: 806px;
+  margin: 0 auto;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .percentage .title {
-    color: rgb(255, 0, 0);
-    font-family: Inter;
-    font-size: 88px;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 48px;
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 48px;
 }
 
 .percentage .sub-title {
-    color: rgb(255, 0, 0);
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: 16px;
+  color: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 16px;
 }
 
 .percentage .categories {
-    color: rgb(7, 2, 17);
-    font-family: Inter;
-    font-size: 48px;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 48px;
+  color: rgb(7, 2, 17);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 48px;
 }
 
 .image-container {
-    width: 803px;
-    height: 500px;
+  width: 803px;
+  height: 500px;
 }
 
 .image-container img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 /* midnight party css */
 .midnight-party {
-    max-width: 1320px;
-    height: 600px;
-    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%),  url("../assets/images/Vectorrr.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 16px;
-    display: flex;
-    margin: 0 auto;
-    background-blend-mode: overlay;
-    background-size: cover;
-    padding: 126px 145px 158px 145px;
-    justify-content: space-between;
+  max-width: 1320px;
+  height: 600px;
+  background-image: linear-gradient(
+      90deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url("../assets/images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 16px;
+  display: flex;
+  margin: 0 auto;
+  background-blend-mode: overlay;
+  background-size: cover;
+  padding: 126px 145px 158px 145px;
+  justify-content: space-between;
 }
 
-.leftside-content  {
-    width: 642px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.leftside-content {
+  width: 642px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .leftside-content .midnight-title {
-    color: #fff;
-    font-size: 64px;
-    font-weight: 900;
-    line-height: 88px;
-
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
 }
 
 .leftside-content .midnight-desc {
-    color: #FFFFFFCC;
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
+  color: #ffffffcc;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .leftside-content .midnight-btn {
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    text-align: center;
-    text-transform: uppercase;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .midnight-btn {
-    color: #fff;
-    margin-top: 48px;
-    margin-left: -470px;
-
+  color: #fff;
+  margin-top: 48px;
+  margin-left: -470px;
 }
 
 .midnight-btn a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
-
 .image-right {
-    width: 350px;
-    margin-bottom: 68px;
+  width: 350px;
+  margin-bottom: 68px;
 }
 
 /* new hotel park css */
 .new-hotel-park {
-    width: 1320px;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 16px;
-    margin: 120px auto;
-    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+  width: 1320px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  margin: 120px auto;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
 }
 
-.new-hotel-park .title p{
-    font-family: Inter;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 56px;
-    text-align: center;
+.new-hotel-park .title p {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-align: center;
 }
 
 .new-hotel-park .join {
-    text-align: center;
-    width: 167px;
+  text-align: center;
+  width: 167px;
 }
 
 .title .text-primary {
-    color: #FF0000;
+  color: #ff0000;
 }
 
 .join {
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    padding: 16px 32px 16px 32px;
-    border-radius: 8px;
-    background: rgb(255, 0, 0);
-    padding: 20px;
-    border: none;
-    color: #fff;
-    text-transform: uppercase;
-    margin-top: 48px;
-    cursor: pointer;
-    
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 32px 16px 32px;
+  border-radius: 8px;
+  background: rgb(255, 0, 0);
+  padding: 20px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 48px;
+  cursor: pointer;
 }
 
 /* coming soon css */
 .coming-soon-container {
-    width: 1320px;
-    height: 463px;
-    display: flex;
-    margin: 0 auto;
-    margin-bottom: 120px;
+  width: 1320px;
+  height: 463px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 120px;
 }
 
 .coming-soon-container .best-offer {
-   width: 393px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   margin-right: 70px;
+  width: 393px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 70px;
 }
 
 .best-offer .title {
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 29px;
-    color: #FF0000;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  color: #ff0000;
 }
 
 .best-offer .coming {
-    font-family: Merriweather;
-    font-size: 48px;
-    font-weight: 900;
-    line-height: 60px;
-    color: #070211;
-    margin-top: 16px;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  color: #070211;
+  margin-top: 16px;
 }
 
 .best-offer .offer-desc {
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    color: #07021199;
-    margin-top: 22px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #07021199;
+  margin-top: 22px;
 }
 
 .center-image {
-    box-sizing: border-box;
-    border-radius: 50%;
-    width: 490px;
-    height: 430px;
-    border: 15px solid rgb(255, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+  width: 490px;
+  height: 430px;
+  border: 15px solid rgb(255, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .img-right {
-    width: 394px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 122px;
+  width: 394px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 122px;
 }
 
-.img-right img{
-    width: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 46px;
+.img-right img {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 46px;
 }
 
 .img-right .title {
-    font-family: Inter;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 58px;
-    color: #FF0000;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  color: #ff0000;
 }
 
 .img-right .img-desc {
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    color: #07021199;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #07021199;
 }
 
 /* holiday sale css */
 .holiday-sale-container {
-    max-width: 1320px;
-    height: 985px;
-    margin: 0 auto;
-    position: relative;
+  max-width: 1320px;
+  height: 985px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .holiday-sale-container .holiday-title {
-    width: 1068px;
-    height: 260px;
-    margin: 0 auto;
+  width: 1068px;
+  height: 260px;
+  margin: 0 auto;
 }
 
 .holiday-title .pre-title {
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 29px;
-    color: #070211;
-    text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  color: #070211;
+  text-align: center;
 }
 
 .holiday-title .sale-title {
-    font-family: Merriweather;
-    font-size: 72px;
-    font-weight: 900;
-    line-height: 91px;
-    color: #070211;
-    text-align: center;
-    margin-top: 16px;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+  color: #070211;
+  text-align: center;
+  margin-top: 16px;
 }
 
 .sale-primary {
-    color: #FF0000;
+  color: #ff0000;
 }
 
 .holiday-title .sale-desc {
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 32px;
-    color: #07021199;
-    text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #07021199;
+  text-align: center;
 }
 
 .solid-color {
-    width: 1320px;
-    height: 200px;
-    background-color: #FF0000;
-    position: absolute;
-    top: 70%;
-    border-radius: 16px;
-    display: flex;
-    justify-content: space-between;
+  width: 1320px;
+  height: 200px;
+  background-color: #ff0000;
+  position: absolute;
+  top: 70%;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .image-section {
-    width: 1320px;
-    height: 577px;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+  width: 1320px;
+  height: 577px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
 }
 
 .image-section .right-image {
-    width: 305px;
-    height: 305px;
-    margin: 0 auto;
+  width: 305px;
+  height: 305px;
+  margin: 0 auto;
 }
 
 /* best gifts css */
 .best-gifts {
-    width: 1320px;
-    height: 1163px;
-    margin-top: 120px;
-    margin: 0 auto;
+  width: 1320px;
+  height: 1163px;
+  margin-top: 120px;
+  margin: 0 auto;
 }
 
 .head .title {
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 29px;
-    color: #FF0000;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  color: #ff0000;
 }
 
 .head .awesome-title {
-    font-family: Merriweather;
-    font-size: 48px;
-    font-weight: 900;
-    line-height: 60px;
-    color: #070211;
-    margin-top: 16px;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  color: #070211;
+  margin-top: 16px;
 }
 
 .head .best-desc {
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    color: #07021199;
-    margin-top: 22px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #07021199;
+  margin-top: 22px;
 }
 
 .grid-images {
-    width: 1320px;
-    margin-top: 48px;
-    padding: 10px;
-    grid-gap: 5px;
+  width: 1320px;
+  margin-top: 48px;
+  padding: 10px;
+  grid-gap: 5px;
 }
 
 .grid-images img {
-    width: 424px;
-    height: 450px;
-    padding: 5px;
+  width: 424px;
+  height: 450px;
+  padding: 5px;
 }
 
 /* newsletter subscription */
 .subscribe-container {
-    width: 1320px;
-    height: 616px;
-    border-radius: 16px;
-    background: rgba(255, 0, 0, 0.05);
-    margin: 0 auto;
-    margin-top: 120px;
+  width: 1320px;
+  height: 616px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin: 0 auto;
+  margin-top: 120px;
 }
 
 .subscribe-container .newsletter {
-    width: 896px;
-    height: 336px;
-    margin: 0 auto;
-    text-align: center;
+  width: 896px;
+  height: 336px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .newsletter img {
-    width: 131px;
-    height: 137px;
-    margin-top: 80px;
+  width: 131px;
+  height: 137px;
+  margin-top: 80px;
 }
 
 .newsletter .newsletter-title {
-    margin-top: 46px;
-    font-family: Merriweather;
-    font-size: 48px;
-    font-weight: 900;
-    line-height: 60px;
+  margin-top: 46px;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
 }
 
 .newsletter .news-desc {
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    margin-top: 22px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 22px;
 }
 
 .text-area {
-    margin-top: 120px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .text-area .btn {
-    width: 150px;
-    height: 70px;
-    border: none;
-    border-radius: 0px 50px 50px 0px;
-    background: rgb(255, 0, 0);
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 24px;
-    color: #FFFFFF;
-    cursor: pointer;
+  width: 150px;
+  height: 70px;
+  border: none;
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(255, 0, 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .text-area input[type="email"] {
-    width: 450px;
-    height: 70px;
-    padding: 20px;
-    font-family: Inter;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 22px;
-    color: #0702114D;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border: none;
+  width: 450px;
+  height: 70px;
+  padding: 20px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #0702114d;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: none;
 }
 
 /* footer css */
 .footer-container {
-    max-width: 100%;
-    height: 609px;
-    background: rgb(7, 2, 17);
-    margin-top: 120px;
+  max-width: 1320px;
+  height: 609px;
+  background: rgb(7, 2, 17);
+  margin-top: 120px;
+  margin: 0 auto;
 }
 
-
-
 .footer-container .address {
-    width: 1185px;
-    height: 80px;
-    margin: 0 auto;
+  width: 1185px;
+  height: 80px;
+  margin: 0 auto;
 }
 
 .address .info {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .info .gio-info {
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 40px;
-    color: #FFFFFF;
-    margin-top: 120px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #ffffff;
+  margin-top: 120px;
 }
 
 .right-info {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
 .right-info img {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .right-info li {
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 40px;
-    color: #FFFFFF;
-    list-style: none;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #ffffff;
+  list-style: none;
 }
 
 .footer-social {
-    margin-top: 138px;
-    text-align: center;
+  margin-top: 138px;
+  text-align: center;
 }
 
 .icons {
-    margin: 48px 0;
+  margin: 48px 0;
 }
 
 .footer-social img {
-    width: 50px;
-    height: 50px;
-    padding: 5px;
-    cursor: pointer;
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  cursor: pointer;
 }
 
 hr {
-    width: 1185px;
-    margin: 0 auto;
-    background-color: #FFFFFF26;
-    opacity: 0.1;
-
+  width: 1185px;
+  margin: 0 auto;
+  background-color: #ffffff26;
+  opacity: 0.1;
 }
 
 /* copy rights */
 .copy-rights {
-    width: 1185px;
-    display: flex;
-    font-family: Inter;
-    margin: 0 auto;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 29px;
-    color: #FFFFFF;
-    justify-content: space-between;
-    margin-top: 49px;
+  width: 1185px;
+  display: flex;
+  font-family: Inter;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  color: #ffffff;
+  justify-content: space-between;
+  margin-top: 49px;
 }
