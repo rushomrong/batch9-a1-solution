@@ -425,6 +425,7 @@ body {
   background: rgba(255, 0, 0, 0.05);
   margin: 0 auto;
   margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 .subscribe-container .newsletter {
@@ -493,7 +494,7 @@ body {
 
 /* footer css */
 .footer-container {
-  max-width: 1320px;
+  max-width: 1600px;
   height: 609px;
   background: rgb(7, 2, 17);
   margin-top: 120px;
